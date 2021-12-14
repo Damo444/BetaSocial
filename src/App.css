@@ -1,0 +1,55 @@
+.card-wrapper{
+  width: 16%;
+  margin: .3%;
+  float: left;
+  background-color: #40BBFF;
+  color: #ffffff;
+  padding: 13px;
+  border-radius: 6px;
+}
+.color-green{
+  background-color: #50E3C2;
+}
+
+.color-pink{
+  background-color: #DF70B5;
+}
+
+.color-red{
+  background-color: #be2a45;
+}
+
+.color-yellow{
+  background-color: #FEB102;
+}
+
+.color-orange{
+  background-color: #c46a15;
+}
+.color-picker{
+  width: 20px;
+  height: 20px;
+  display:inline-block;
+  border-radius: 50%;
+  margin: 4px;
+}
+.color-paragraph{
+  content: center;
+}
+
+.select{
+  position: relative;
+}
+
+.select:after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -2.5px;
+  top: -2.5px;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  border: 1px solid;
+
+}
