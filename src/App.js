@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Button 
         style={{
-          fontSize:24
+          fontSize:25
         }}
         variant='contained'
         color="primary">
