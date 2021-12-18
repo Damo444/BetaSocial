@@ -39,17 +39,7 @@ class App extends Component {
     }
   }
 
-  checkSelectedColor (color)  {
-    this.setState({selectedColor:color})
-  }
 
-  updateTitle(title) {
-    this.setState({title})
-
-  }
-    handleChange (event: any) {
-    this.setState(event.target.value)
-  }
   
 
   render(){
@@ -58,47 +48,7 @@ class App extends Component {
   return (   
     <div className="App">
       
-      <div className="input-wrapper" >
-           <input
-             type= "text"
-             placeholder="Title"
-              onChange={handleChange}
-          />
-      </div>
-      <textarea type="text" placeholder="description">
-      </textarea>
-      
-      <div className="color-paragraph">
-      <p className="color-paragraph">
-        {
-        colorsToPick.map((color,index)=>{
-          const selectedClass =(this.state.selectedColor===color.label)
-          ?'color-picker select' : 'color-picker';
-          return (
-            <a key={index} onClick= {() => this.checkSelectedColor(color.label)}>
-            <span className={selectedClass} style={{backgroundColor:color.color}}>
-
-            </span>
-            </a>
-          )
-        })
-      }
-
-      </p>
-      <button >Create New</button>
-      </div>
-
-      {
-              data.map((node) => {
-                return (
-                  <Card key={node.date} node={node} color={node.color}/>
-                  
-                  
-
-                )
-              })
-      }
-       
+      <h1> what </h1>
 
      
 
