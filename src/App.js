@@ -21,6 +21,9 @@ function App() {
       <Button variant='contained'>
         Home
       </Button>
+      <Button variant='contained'>
+        Home
+      </Button>
     
     
     </div>
